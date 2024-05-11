@@ -5,7 +5,7 @@ This repository contains code and resources for the paper "Attention is *Not* Al
 
 ## Instructions:
 - Clone the repository
-- Install dependencies by typing 'pip install -r requirements.txt' into the terminal
+- Install dependencies by typing `pip install -r requirements.txt` into the terminal
 
 ## Repository Structure
 - `outputs/`: Contains both Gram and Full model predictions in JSON format as well as text-file outputs of models evaluated on the MNLI test set.
@@ -21,6 +21,3 @@ The MNLI dataset (Williams et al. 2018) used in this study can be downloaded fro
 1. Download the MNLI dataset and place it in the appropriate directory.
 2. Run the scripts in the `train_and_eval/` directory to create the datasets, train the models, and evaluate them on the MNLI test set.
 3. Visualize models using the jupyter notebook provided.
-
-## Data:
-- The MNLI dataset (Williams et al. 2018) is available to download [here](https://cims.nyu.edu/~sbowman/multinli/)

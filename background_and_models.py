@@ -16,7 +16,6 @@ import re
 from matplotlib import pyplot as plt
 import json
 from negate import Negator
-from loss import UnlikelihoodLoss
 import os
 
 pd.set_option('display.max_colwidth', None)

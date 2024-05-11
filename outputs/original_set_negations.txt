@@ -1,0 +1,8 @@
+There are 97247 sentences with negations in the training data.
+Percentage of grammatical sentences with negations: 24.76%
+
+There are 55087 grammatical sentences with negations in the training data.
+Percentage of grammatical sentences with negations: 23.19%
+
+There are 2371 sentences with negations in the dev matched data.
+Percentage of grammatical sentences with negations: 24.16%

@@ -1,0 +1,35 @@
+Gram base model:
+               precision    recall  f1-score   support
+
+   entailment       0.58      0.74      0.65      3479
+contradiction       0.66      0.72      0.69      3213
+      neutral       0.62      0.37      0.47      3123
+
+     accuracy                           0.62      9815
+    macro avg       0.62      0.61      0.60      9815
+ weighted avg       0.62      0.62      0.60      9815
+
+Wrong predictions: 3772
+Correct predictions: 6043
+Confusion matrix: [[2570  490  419]
+ [ 623 2302  288]
+ [1268  684 1171]]
+
+
+Gram aug model:
+               precision    recall  f1-score   support
+
+   entailment       0.61      0.72      0.66      3479
+contradiction       0.73      0.69      0.71      3213
+      neutral       0.60      0.52      0.56      3123
+
+     accuracy                           0.64      9815
+    macro avg       0.65      0.64      0.64      9815
+ weighted avg       0.65      0.64      0.64      9815
+
+Wrong predictions: 3492
+Correct predictions: 6323
+Confusion matrix: [[2505  318  656]
+ [ 607 2206  400]
+ [1001  510 1612]]
+

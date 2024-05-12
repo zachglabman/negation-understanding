@@ -12,7 +12,6 @@ This repository contains code and resources for the paper "Attention is *Not* Al
 - `train_and_eval/`: Contains the Python files necessary to create grammatical and negated data, as well as tune hyperparameters, train and save models.
 - `background_and_models.py`: Contains the code necessary to run files within `train_and_eval/` as well as to visualize the models.
 - `visualize_models.ipynb`: A Jupyter notebook visualizing the train and test data distributions, the models, and their predictions in various ways, as described in the paper.
-- `Paper.pdf`: The research paper associated with this repository.
 
 ## Data
 The MNLI dataset (Williams et al. 2018) used in this study can be downloaded from [here](https://cims.nyu.edu/~sbowman/multinli/).
